@@ -1,0 +1,21 @@
+# Virtual environment & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.gradio/
+.ipynb_checkpoints/
+
+# Dataset is NOT committed — see README "Get the dataset" for download steps
+data/raw/
+data/splits/
+dataset-resized.zip
+__MACOSX/
+
+# Trained model is NOT committed — reproduce it with `python src/train.py`
+outputs/models/
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
