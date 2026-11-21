@@ -29,12 +29,6 @@ class (extreme imbalance). Glass is frequently confused with metal/plastic
 
 ![Sample images](outputs/figures/sample_images.png)
 
-**Training/validation accuracy and loss over epochs** — train accuracy keeps
-rising while validation oscillates: classic **overfitting**, mitigated with
-data augmentation, dropout and early stopping (stopped at epoch 14):
-
-![Training history](outputs/figures/training_history.png)
-
 **Confusion matrix on the test set:**
 
 ![Confusion matrix](outputs/figures/confusion_matrix.png)
